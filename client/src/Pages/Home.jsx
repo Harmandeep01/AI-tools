@@ -34,7 +34,7 @@ const Home = ({searchTerm}) => {
     if (selectedCategory === "All") {
       setFilteredTools(tools);
     } else {
-      const filtered = tools.filter(
+      filtered = tools.filter(
         (tool) => tool.category.toLowerCase() === selectedCategory.toLowerCase()
       );
       setFilteredTools(filtered);
