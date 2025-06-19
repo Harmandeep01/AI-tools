@@ -32,8 +32,9 @@ const Favorites = () => {
           {favorites.map((tool) => (
             <div className="tool-card" key={tool.id}>
               <h3>{tool.name}</h3>
-              <p>
-                Category: <span>{tool.category}</span>
+             <p className="card-top">
+                <span>{tool.pricing}</span>
+                <span>{tool.category}</span>
               </p>
               <p>{tool.excerpt}</p>
               <div className="card-bottom">
