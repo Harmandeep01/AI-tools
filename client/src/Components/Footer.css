@@ -1,0 +1,28 @@
+.footer {
+    height: auto;
+    border-radius: 22px;
+  background-color: #6750A4;
+  color: #EADDFF;
+  padding: 10px 24px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-top: 1px solid #4A4458; 
+}
+
+.footer-links {
+  margin-top: 6px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+
+.footer a {
+  color: #FFD8E4; 
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #FFFFFF;
+}
